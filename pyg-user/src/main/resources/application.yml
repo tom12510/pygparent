@@ -1,0 +1,10 @@
+server:
+  port: 9008
+spring:
+  application:
+    name: pyg-user #指定服务名
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://122.51.103.202:3306/pyg
+    username: root
+    password: 10086

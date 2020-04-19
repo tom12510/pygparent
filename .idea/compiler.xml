@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="pyg-page" />
+        <module name="pyg-search" />
+        <module name="pyg-shopping" />
+        <module name="pyg-upload" />
+        <module name="pyg-user" />
+        <module name="pyg-pay" />
+        <module name="pyg-common" />
+        <module name="pyg-sellergoods" />
+        <module name="pyg-cart" />
+        <module name="pyg-order" />
+        <module name="pyg-seckill" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="pyg-cart" target="1.8" />
+      <module name="pyg-common" target="1.8" />
+      <module name="pyg-order" target="1.8" />
+      <module name="pyg-page" target="1.8" />
+      <module name="pyg-pay" target="1.8" />
+      <module name="pyg-search" target="1.8" />
+      <module name="pyg-seckill" target="1.8" />
+      <module name="pyg-sellergoods" target="1.8" />
+      <module name="pyg-shopping" target="1.8" />
+      <module name="pyg-upload" target="1.8" />
+      <module name="pyg-user" target="1.8" />
+      <module name="pygparent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="pyg-cart" options="-parameters" />
+      <module name="pyg-common" options="-parameters" />
+      <module name="pyg-order" options="-parameters" />
+      <module name="pyg-page" options="-parameters" />
+      <module name="pyg-pay" options="-parameters" />
+      <module name="pyg-search" options="-parameters" />
+      <module name="pyg-seckill" options="-parameters" />
+      <module name="pyg-sellergoods" options="-parameters" />
+      <module name="pyg-shopping" options="-parameters" />
+      <module name="pyg-upload" options="-parameters" />
+      <module name="pyg-user" options="-parameters" />
+      <module name="pygparent" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,3 @@
+# Project exclude paths
+/pyg-user/target/
+*.iml

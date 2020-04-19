@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/pyg-cart/pyg-cart.iml" filepath="$PROJECT_DIR$/pyg-cart/pyg-cart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg-common/pyg-common.iml" filepath="$PROJECT_DIR$/pyg-common/pyg-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg-order/pyg-order.iml" filepath="$PROJECT_DIR$/pyg-order/pyg-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg-page/pyg-page.iml" filepath="$PROJECT_DIR$/pyg-page/pyg-page.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg-pay/pyg-pay.iml" filepath="$PROJECT_DIR$/pyg-pay/pyg-pay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg-search/pyg-search.iml" filepath="$PROJECT_DIR$/pyg-search/pyg-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg-seckill/pyg-seckill.iml" filepath="$PROJECT_DIR$/pyg-seckill/pyg-seckill.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg-sellergoods/pyg-sellergoods.iml" filepath="$PROJECT_DIR$/pyg-sellergoods/pyg-sellergoods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg-shopping/pyg-shopping.iml" filepath="$PROJECT_DIR$/pyg-shopping/pyg-shopping.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg-upload/pyg-upload.iml" filepath="$PROJECT_DIR$/pyg-upload/pyg-upload.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pyg-user/pyg-user.iml" filepath="$PROJECT_DIR$/pyg-user/pyg-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pygparent.iml" filepath="$PROJECT_DIR$/pygparent.iml" />
+    </modules>
+  </component>
+</project>

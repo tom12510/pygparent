@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.6.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <groupId>com.tom</groupId>
+    <artifactId>pygparent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>pygparent</name>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>pyg-shopping</module>
+        <module>pyg-cart</module>
+        <module>pyg-order</module>
+        <module>pyg-pay</module>
+        <module>pyg-search</module>
+        <module>pyg-seckill</module>
+        <module>pyg-sellergoods</module>
+        <module>pyg-upload</module>
+        <module>pyg-user</module>
+        <module>pyg-common</module>
+        <module>pyg-user</module>
+        <module>pyg-page</module>
+    </modules>
+
+    <properties>
+        <java.version>1.8</java.version>
+        <!--设置编译的版本使用1.8版本-->
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!--//和设置编译插件是一样的效果-->
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+    </properties>
+
+
+    <build>
+        <finalName>${project.name}</finalName>
+        <resources>
+            <resource>
+                <directory>src/main/resources</directory>
+            </resource>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.xml</include>
+                </includes>
+            </resource>
+        </resources>
+    </build>
+</project>
